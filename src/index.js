@@ -1,20 +1,19 @@
-// src/index.js
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import App from './App';
 import './index.css';
 
-// Custom theme with vibrant color palette and typography settings
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#1976d2', // Deep Blue
+      main: '#1976d2',
       light: '#63a4ff',
       contrastText: '#fff',
     },
     secondary: {
-      main: '#f50057', // Pinkish Red
+      main: '#f50057', 
       light: '#ff4081',
       contrastText: '#fff',
     },

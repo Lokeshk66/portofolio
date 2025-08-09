@@ -4,11 +4,11 @@ import { loadFull } from "tsparticles";
 
 export default function ParticleBackground() {
   const particlesInit = useCallback(async (engine) => {
-    await loadFull(engine); // Loads tsparticles engine full package
+    await loadFull(engine);
   }, []);
 
   const particlesLoaded = useCallback(async (container) => {
-    // Optionally handle load event
+   
   }, []);
 
   const options = {
